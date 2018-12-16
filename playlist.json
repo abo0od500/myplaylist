@@ -1,16 +1,16 @@
 {
     "name": {
             "Khlg": [
-                    { "song": "test"  },
-                    { "song": "test"  },
-                    { "song": "test"  },
-                    { "song": "test"  }
+                    { "song": "test", "link": "test" },
+                    { "song": "test", "link": "test"  },
+                    { "song": "test", "link": "test" },
+                    { "song": "test", "link": "test"  }
             ],
             "EN": [
-                    { "song": "test"  },
-                    { "song": "test"  },
-                    { "song": "test"  },
-                    { "song": "test"  }
+                    { "song": "test", "link": "test"  },
+                    { "song": "test", "link": "test"  },
+                    { "song": "test", "link": "test"  },
+                    { "song": "test", "link": "test"  }
             ]
     }  
 }
