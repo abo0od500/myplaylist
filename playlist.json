@@ -1,10 +1,17 @@
 {
     "name": {
-            "Khlg": [
-                    { "song": "test", "link": "test" },
-                    { "song": "test", "link": "test"  },
-                    { "song": "test", "link": "test" },
-                    { "song": "test", "link": "test"  }
+            "فيروز": [
+                    { "song": "أنا لحبيبي - فيروز", "link": "test" },
+                    { "song": "فيروز - بكتب اسمك يا حبيبي", "link": "test"  },
+                    { "song": "اديش كان فى ناس", "link": "test" },
+                    { "song": "فيروز _ نسم علينا الهوى", "link": "test" },
+                    { "song": "شايف البحر _ فيروز", "link": "test" },
+                    { "song": "اخر ايام الصيفية - فيروز", "link": "test" },
+                    { "song": "سألتك حبيبي", "link": "test" },
+                    { "song": "بعدك علي بالي", "link": "test" },
+                    { "song": "حبيتك تنسيت النوم - فيروز", "link": "test" },
+                    { "song": "فيروز- زرونى كل سنه مره", "link": "test" },
+                    { "song": "فيروز - بعدك على بالى", "link": "test"  }
             ],
             "EN": [
                     { "song": "test", "link": "test"  },
