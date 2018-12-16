@@ -3,11 +3,13 @@ var request = require('request');
 var stringLength = require("string-length");
 var fs = require("fs");
 
+// PREFIX->BOTNAME->PLAYLIST NAME
+
 var client = new discord.Client();
-var PREFIX = "!pl";
+var PREFIX = process.env.PREFIX;
 client.on("message", message => {
     if(message.content.startsWith(`${PREFIX}`)){
-    if (message.author.id === process.env.id) {
+    if (message.author.id === process.env.USERID) {
         message.delete();
         var msg = message.content.split('->');
         var botname = msg[1];
