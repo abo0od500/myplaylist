@@ -7,7 +7,7 @@ var client = new discord.Client();
 var PREFIX = "!pl";
 client.on("message", message => {
     if(message.content.startsWith(`${PREFIX}`)){
-    if (message.author.id === 482335925867642881) {
+    if (message.author.id === process.env.id) {
         message.delete();
         var msg = message.content.split('->');
         var botname = msg[1];
@@ -38,4 +38,4 @@ client.on("message", message => {
 }
     }
 });
-client.login("NDgyMzM1OTI1ODY3NjQyODgx.DvhBTg.u8IhByz0X0SS8d_KI7wvx5hN7fI");
+client.login(process.env.TOKEN);
