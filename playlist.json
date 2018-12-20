@@ -1,41 +1,61 @@
 {
     "name": {
-            "فيروز": [
-                    { "song": "أنا لحبيبي - فيروز", "link": "test" },
-                    { "song": "فيروز - بكتب اسمك يا حبيبي", "link": "test"  },
-                    { "song": "اديش كان فى ناس", "link": "test" },
-                    { "song": "فيروز _ نسم علينا الهوى", "link": "test" },
-                    { "song": "شايف البحر _ فيروز", "link": "test" },
-                    { "song": "اخر ايام الصيفية - فيروز", "link": "test" },
-                    { "song": "سألتك حبيبي", "link": "test" },
-                    { "song": "بعدك علي بالي", "link": "test" },
-                    { "song": "حبيتك تنسيت النوم - فيروز", "link": "test" },
-                    { "song": "فيروز- زرونى كل سنه مره", "link": "test" },
-                    { "song": "فيروز - بعدك على بالى", "link": "test"  }
-            ],
-            "leem": [
-                    { "song": "عبدالمجيد - فوق هذا الحب", "link": "test"  },
-                    { "song": "احلام - يلازمني خيالك", "link": "test"  },
-                    { "song": "راشد - الله عليك", "link": "test"  },
-                    { "song": "وليد الشامي - وضح اكثر", "link": "test"  },
-                    { "song": "عبدالمجيد - يحلمون", "link": "test"  },
-                    { "song": "فؤاد عبدالواحد - انا صوتك", "link": "test"  },
-                    { "song": "قبلة انا عاقل ومعه العقل جن", "link": "test"  },
-                    { "song": "راشد - اكثر شخص", "link": "test"  },                
-                    { "song": "تناديني - عبدالقادر هدهود", "link": "test"  },
-                    { "song": "عبدالمجيد - من مثلك", "link": "test"  }
-            ],
-            "f9": [
-                    { "song": "ميادة بسيليس - أريج الزهر", "link": "test"  },
-                    { "song": "في عينيك عنواني - سميه", "link": "test"  },
-                    { "song": "ياحبيبا صار الذكرى بديلا عن رؤاه", "link": "test"  },
-                    { "song": "وشاء الهوى", "link": "test"  },
-                    { "song": "الله يعلم اني لست اذكره", "link": "test"  },
-                    { "song": "عذب بما شئت", "link": "test"  },
-                    { "song": "دين القبل", "link": "test"  },
-                    { "song": "كل مافيك جميل", "link": "test"  },
-                    { "song": "ماذا اعطيك", "link": "test"  },
-                    { "song": "بالي معاك - لينا شماميان", "link": "test"  }
-            ]
+    "فيروز": [
+    { "song": "أنا لحبيبي - فيروز", "link": "https://youtu.be/oyPvTOIAzFo" },
+    { "song": "فيروز - بكتب اسمك يا حبيبي", "link": "https://youtu.be/KoT-RC0lWQk"  },
+    { "song": "اديش كان فى ناس", "link": "https://youtu.be/Wt2aLC7_Zyw" },
+    { "song": "فيروز _ نسم علينا الهوى", "link": "https://youtu.be/PQbqJ6zhLBU" },
+    { "song": "شايف البحر _ فيروز", "link": "https://youtu.be/Q1rRi6C2iGE" },
+    { "song": "سألتك حبيبي", "link": "https://youtu.be/XEdYJAN_pA4" },
+    { "song": "بعدك علي بالي", "link": "https://youtu.be/HyFexQotca0" },
+    { "song": "حبيتك تنسيت النوم - فيروز", "link": "https://youtu.be/Roj1JC7DMXo" },
+    { "song": "فيروز- زرونى كل سنه مره", "link": "https://youtu.be/f1qKSxXFwbw" }
+    ],
+    "p1": [
+    { "song": "عبدالمجيد - فوق هذا الحب", "link": "test"  },
+    { "song": "احلام - يلازمني خيالك", "link": "test"  },
+    { "song": "راشد - الله عليك", "link": "test"  },
+    { "song": "وليد الشامي - وضح اكثر", "link": "test"  },
+    { "song": "عبدالمجيد - يحلمون", "link": "test"  },
+    { "song": "فؤاد عبدالواحد - انا صوتك", "link": "test"  },
+    { "song": "قبلة انا عاقل ومعه العقل جن", "link": "test"  },
+    { "song": "راشد - اكثر شخص", "link": "test"  },                
+    { "song": "تناديني - عبدالقادر هدهود", "link": "test"  },
+    { "song": "عبدالعزيز المعنّى - صدمة غيابك", "link": "https://youtu.be/dC1SesCtQV4"  },
+    { "song": "خلك بحر - أصيل هميم", "link": "https://youtu.be/YpUWSTTiCAc"  },
+    { "song": "أنغام - قلبي معي", "link": "https://youtu.be/CJapK3--JpY"  },
+    { "song": "عبدالمجيد - من مثلك", "link": "test"  },
+    { "song": "عبدالمجيد - سلامك", "link": "https://youtu.be/PhsG3olh0UI"  }
+    ],
+    "f9": [
+    { "song": "ميادة بسيليس - أريج الزهر", "link": "test"  },
+    { "song": "في عينيك عنواني - سميه", "link": "test"  },
+    { "song": "ياحبيبا صار الذكرى بديلا عن رؤاه", "link": "test"  },
+    { "song": "وشاء الهوى", "link": "test"  },
+    { "song": "الله يعلم اني لست اذكره", "link": "test"  },
+    { "song": "عذب بما شئت", "link": "test"  },
+    { "song": "دين القبل", "link": "test"  }
+    ],
+    "mjeed": [
+    { "song": "عبدالمجيد عبدالله - فتانة الحسن - جلسة صوت الخليج", "link": "https://youtu.be/l-DipS0U6x8"  },
+    { "song": "عبدالمجيد عبدالله - والله فاضي - تسجيل رايق | صوت الخليج", "link": "https://youtu.be/uGy0hFEL6S0"  },
+    { "song": "عبدالمجيد عبدالله - أتبعك - تسجيل رايق | صوت الخليج", "link": "https://youtu.be/jDqQ1wBajMs"  },
+    { "song": "عبدالمجيد عبدالله - فراغ العاطفة - عود | صوت الخليج", "link": "https://youtu.be/VAWXex0Sd3I"  },
+    { "song": "عبدالمجيد عبدالله ـ يا حاولت | جلسات صوت الخليج", "link": "https://youtu.be/QqovAIZsHpg"  }
+
+
+    ],
+    "skh": [
+    { "song": "انغام محد فاضي عود من جلسات صوت الخليج", "link": "https://youtu.be/XsDkJv7CaEg"  },
+    { "song": "أصيل هميم - شرهة العاشق - صوت الخليج", "link": "https://youtu.be/cR73ePjKVbA"  },
+    { "song": "جلسات صوت الخليج - أصيل هميم - ماتمنيتك", "link": "https://youtu.be/Bag2aw6PQGU"  }
+
+    ],
+    "Noel": [
+    { "song": "Noel Kharman-Hello-Adele/Fairouz كيفك انت - فيروز", "link": "https://youtu.be/qqLtPbEmbJs"  },
+    { "song": "Noel Kharman-Despacito/اخيرا قالها", "link": "https://youtu.be/bHUh7aBBKU4"  },
+    { "song": "Noel - I Believe", "link": "https://youtu.be/Wva4llzc_Wo"  },
+    { "song": "Noel Kharman-My Immortal-Evanescence/فيروز-بعدك على بالي", "link": "https://youtu.be/rZS_gpd_ZZQ"  }
+    ]
     }  
 }
