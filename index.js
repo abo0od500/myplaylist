@@ -31,7 +31,10 @@ client.on("message", message => {
             if(make == playlistName){
             for (var i = 0; i < data.name[make].length; i++) {
 
-                    message.channel.send(botname + " " + data.name[make][i].song);
+                message.channel.send(botname + " " + data.name[make][i].song).then(msg => {
+                msg.delete(500)
+                })
+                .catch("deleted");;
 
 
                 }
