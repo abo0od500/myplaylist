@@ -30,8 +30,9 @@ client.on("message", message => {
             for (var make in data.name) {
             if(make == playlistName){
             for (var i = 0; i < data.name[make].length; i++) {
-                message.channel.send(botname + " " + data.name[make][i].song);
-                console.log(data.name[make][i].song);
+                setInterval(message.channel.send(botname + " " + data.name[make][i].song), 3000);
+//                 message.channel.send(botname + " " + data.name[make][i].song);
+//                 console.log(data.name[make][i].song);
                 }
             }
         }
