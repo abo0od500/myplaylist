@@ -31,9 +31,7 @@ client.on("message", message => {
             if(make == playlistName){
             for (var i = 0; i < data.name[make].length; i++) {
 
-                setTimeout(function() {    
                     message.channel.send(botname + " " + data.name[make][i].song);
-                  },2000); 
 
 
                 }
