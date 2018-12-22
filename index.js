@@ -3,7 +3,7 @@ var request = require('request');
 var stringLength = require("string-length");
 var fs = require("fs");
 
-// PREFIX->BOTNAME->PLAYLIST NAME
+// PREFIX->BOTNAME->PLAYLIST NAME->NAME OR YOUTUBE LINK
 
 var client = new discord.Client();
 var PREFIX = process.env.PREFIX;
@@ -14,10 +14,14 @@ client.on("message", message => {
         var msg = message.content.split('->');
         var botname = msg[1];
         var playlistName = msg[2];
-        console.log(playlistName);
+        var datatype = msg[3];
         if (!botname) return message.channel.send('الرجاء توضيح اسم البوت');
-        if (!playlistName) return message.channel.send('الرجاء توضيح اسم القائمة'); 
-        console.log(message.content);
+        if (!playlistName) return message.channel.send('الرجاء توضيح اسم القائمة');
+        
+        if (!datatype) {
+            datatype = "name";
+        }
+        
         var items = [];
        fs.exists('playlist.json', function(exists){
         if(exists){
@@ -32,14 +36,14 @@ client.on("message", message => {
             if(make == playlistName){
             for (var i = 0; i < data.name[make].length; i++) {
                 
+                if(datatype == "name"){
                 items[i] = data.name[make][i].song;
-                console.log(i + " " + items[i]);
-//                 message.channel.send(botname + " " + data.name[make][i].song).then(msg => {
-//                 msg.delete(500)
-//                 })
-//                 .catch("deleted");;
-
-
+                }
+                
+                if(datatype == "link"){
+                items[i] = data.name[make][i].link;
+                }
+                
                 }
             }
         }
