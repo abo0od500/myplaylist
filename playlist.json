@@ -1,6 +1,6 @@
 {
     "name": {
-    "فيروز": [
+    "fr": [
     { "song": "أنا لحبيبي - فيروز", "link": "https://youtu.be/oyPvTOIAzFo" },
     { "song": "فيروز - بكتب اسمك يا حبيبي", "link": "https://youtu.be/KoT-RC0lWQk"  },
     { "song": "اديش كان فى ناس", "link": "https://youtu.be/Wt2aLC7_Zyw" },
@@ -13,49 +13,82 @@
     ],
     "p1": [
     { "song": "عبدالمجيد - فوق هذا الحب", "link": "test"  },
-    { "song": "احلام - يلازمني خيالك", "link": "test"  },
+    { "song": "انغام - يوجعونك", "link": "test"  },
     { "song": "راشد - الله عليك", "link": "test"  },
+    { "song": "ماجد المهندس رفوف الذكريات", "link": "test"  },
+    { "song": "رابح - خلاص", "link": "test"  },          
     { "song": "وليد الشامي - وضح اكثر", "link": "test"  },
-    { "song": "عبدالمجيد - يحلمون", "link": "test"  },
+    { "song": "عبدالعزيز الويس - علاقتنا", "link": "https://youtu.be/1PeI29TeTh8"  },
     { "song": "فؤاد عبدالواحد - انا صوتك", "link": "test"  },
-    { "song": "قبلة انا عاقل ومعه العقل جن", "link": "test"  },
+    { "song": "قبلة انا عاقل ومعه العقل جن", "link": "test"  }
+    ],
+    "p2": [
     { "song": "راشد - اكثر شخص", "link": "test"  },                
     { "song": "تناديني - عبدالقادر هدهود", "link": "test"  },
     { "song": "عبدالعزيز المعنّى - صدمة غيابك", "link": "https://youtu.be/dC1SesCtQV4"  },
     { "song": "خلك بحر - أصيل هميم", "link": "https://youtu.be/YpUWSTTiCAc"  },
-    { "song": "أنغام - قلبي معي", "link": "https://youtu.be/CJapK3--JpY"  },
+    { "song": "انغام - قلبي معي", "link": "https://youtu.be/CJapK3--JpY"  },
+    { "song": "راشد الماجد - غمضت عيني", "link": "https://youtu.be/vEnea7rP_bQ"  }, 
     { "song": "عبدالمجيد - من مثلك", "link": "test"  },
-    { "song": "عبدالمجيد - سلامك", "link": "https://youtu.be/PhsG3olh0UI"  }
+    { "song": "أصيل هميم - أوف منه قلبي", "link": "https://youtu.be/Xwc5Rj5a1Dk"  },
+    { "song": "عبدالمجيد - سلامك", "link": "https://youtu.be/PhsG3olh0UI"  },
+    { "song": "عبد المجيد عبد الله - عايش سعيد", "link": "https://youtu.be/UuEPuVjsoG4"  }
     ],
-    "f9": [
-    { "song": "ميادة بسيليس - أريج الزهر", "link": "test"  },
-    { "song": "في عينيك عنواني - سميه", "link": "test"  },
+    "f91": [
+    { "song": "أمال ماهر-  عودتني اهواك", "link": "https://youtu.be/OVjg0YYkDu8"  },
     { "song": "ياحبيبا صار الذكرى بديلا عن رؤاه", "link": "test"  },
     { "song": "وشاء الهوى", "link": "test"  },
     { "song": "الله يعلم اني لست اذكره", "link": "test"  },
-    { "song": "عذب بما شئت", "link": "test"  },
-    { "song": "دين القبل", "link": "test"  }
+    { "song": "حنان عصام | لوم وعاتب", "link": "https://youtu.be/05NiKdJJXuA"  },
+    { "song": "في الطريق إليك، فايا يونان", "link": "https://youtu.be/mWPB2AcF13A"  },
+    { "song": "ماجدة الرومي - وعدتك", "link": "https://youtu.be/pgkO15ZeRSU"  },
+    { "song": "عذب بما شئت", "link": "test"  }
     ],
-    "mjeed": [
+    "f92": [
+    { "song": "في عينيك عنواني - سميه", "link": "test"  },
+    { "song": "فاتن هلال بكْ - لا تـعتذر", "link": "https://youtu.be/1IWQTTIu9t0"  },
+    { "song": "دين القبل", "link": "test"  },
+    { "song": "ميادة بسيليس - أريج الزهر", "link": "test"  },
+    { "song": "غادة شبير | لي حبيب عشقه ذوبني", "link": "https://youtu.be/BEqgK6MLxus"  },
+    { "song": "فما اطال النوم عمراً - جاهده وهبة", "link": "https://youtu.be/3Yi-dTMKbpQ"  }
+    ],
+    "mjd": [
     { "song": "عبدالمجيد عبدالله - فتانة الحسن - جلسة صوت الخليج", "link": "https://youtu.be/l-DipS0U6x8"  },
     { "song": "عبدالمجيد عبدالله - والله فاضي - تسجيل رايق | صوت الخليج", "link": "https://youtu.be/uGy0hFEL6S0"  },
     { "song": "عبدالمجيد عبدالله - أتبعك - تسجيل رايق | صوت الخليج", "link": "https://youtu.be/jDqQ1wBajMs"  },
     { "song": "عبدالمجيد عبدالله - فراغ العاطفة - عود | صوت الخليج", "link": "https://youtu.be/VAWXex0Sd3I"  },
+    { "song": "عبدالمجيد عبدالله - عرفت ان الظنون أكبر خطية عود", "link": "https://youtu.be/KzppuAzwtys"  },
     { "song": "عبدالمجيد عبدالله ـ يا حاولت | جلسات صوت الخليج", "link": "https://youtu.be/QqovAIZsHpg"  }
-
-
     ],
     "skh": [
     { "song": "انغام محد فاضي عود من جلسات صوت الخليج", "link": "https://youtu.be/XsDkJv7CaEg"  },
     { "song": "أصيل هميم - شرهة العاشق - صوت الخليج", "link": "https://youtu.be/cR73ePjKVbA"  },
-    { "song": "جلسات صوت الخليج - أصيل هميم - ماتمنيتك", "link": "https://youtu.be/Bag2aw6PQGU"  }
-
+    { "song": "فهد الكبيسي - أقول الآه - عود | صوت الخليج", "link": "https://youtu.be/UWUbduY_87U"  },
+    { "song": "جلسات صوت الخليج - أصيل هميم - ماتمنيتك", "link": "https://youtu.be/Bag2aw6PQGU"  },
+    { "song": "علمني الحب - اسماء المنور", "link": "https://youtu.be/qyVRqd1Ot18"  }
     ],
     "Noel": [
     { "song": "Noel Kharman-Hello-Adele/Fairouz كيفك انت - فيروز", "link": "https://youtu.be/qqLtPbEmbJs"  },
     { "song": "Noel Kharman-Despacito/اخيرا قالها", "link": "https://youtu.be/bHUh7aBBKU4"  },
     { "song": "Noel - I Believe", "link": "https://youtu.be/Wva4llzc_Wo"  },
     { "song": "Noel Kharman-My Immortal-Evanescence/فيروز-بعدك على بالي", "link": "https://youtu.be/rZS_gpd_ZZQ"  }
+    ],
+    "nw": [
+    { "song": "نوال الكویتیة - قضى عمري", "link": "https://youtu.be/_ry_WDr_yTI"  },
+    { "song": "نوال الكويتيه | ياللي ما حبيت عمري الا منك", "link": "https://youtu.be/OjFFMDCB7Qc"  },
+    { "song": "نوال - بروح", "link": "https://youtu.be/b3QFKIIGZ8Q"  },
+    { "song": "نوال - ما أبي منك كثير", "link": "https://youtu.be/RTtqjCd4sFc"  },
+    { "song": "نوال - من علمك", "link": "https://youtu.be/VzR3UO_mmSQ"  },
+    { "song": "نوال - أنا زعلت", "link": "https://youtu.be/yaX3gVMCv3A"  },
+    { "song": "نوال الكويتية - كان رفيجي", "link": "https://youtu.be/XQJOa9Q4ySk"  },
+    { "song": "نوال الكويتيه | وانتلاقى حتى لو صعب الكلام", "link": "https://youtu.be/vBE6MQIXQ-Q"  },
+    { "song": "نوال - لقيت روحي", "link": "https://youtu.be/3OHM_hEUBng"  },
+    { "song": "نوال الكويتية - طيب", "link": "https://youtu.be/_X77dE6Rt-k"  },
+    { "song": "نوال الكويتية أقسى كلامي عود جلسات صوت الخليج", "link": "https://youtu.be/awxs6TEA9Zc"  },
+    { "song": "نوال … مثل النسيم", "link": "https://youtu.be/Mt0YD3V3sbs"  },
+    { "song": "نوال الكويتية - انت ولا الموت", "link": "https://youtu.be/hJ2gf8b8WaY"  },
+    { "song": "نوال الكويتية - خاطري", "link": "https://youtu.be/M4MX8IIT5Gc"  },
+    { "song": "نوال الكويتية - اعاني", "link": "https://youtu.be/350jL6UObxI"  }
     ]
     }  
 }
