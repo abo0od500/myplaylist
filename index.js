@@ -48,7 +48,7 @@ client.on("message", message => {
     console.log(items);
     var index = 0;
     var interval = setInterval(function(){
-         console.log(items[index++]);
+//          console.log(items[index++]);
          
                 message.channel.send(botname + " " + items[index++]).then(msg => {
                 msg.delete(3000)
