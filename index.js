@@ -26,15 +26,18 @@ client.on("message", message => {
             if (err){
                 console.log(err);
             } else {
-            var data = JSON.parse(data); 
+            var data = JSON.parse(data);
+            var items = [];
             for (var make in data.name) {
             if(make == playlistName){
             for (var i = 0; i < data.name[make].length; i++) {
-
-                message.channel.send(botname + " " + data.name[make][i].song).then(msg => {
-                msg.delete(500)
-                })
-                .catch("deleted");;
+                
+                items[items.length] = data.name[make][i].song;
+                
+//                 message.channel.send(botname + " " + data.name[make][i].song).then(msg => {
+//                 msg.delete(500)
+//                 })
+//                 .catch("deleted");;
 
 
                 }
@@ -42,6 +45,29 @@ client.on("message", message => {
         }
     }})
     }});
+
+    var index = 0;
+    var interval = setInterval(function(){
+         console.log(items[index++]);
+         
+                message.channel.send(botname + " " + items[index++]).then(msg => {
+                msg.delete(3000)
+                })
+                .catch("deleted");;
+
+
+
+         if(index == items.length){
+            clearInterval(interval);
+         }
+    }, 5000);
+
+
+
+
+
+
+
 }
     }
 });
