@@ -18,7 +18,7 @@ client.on("message", message => {
         if (!botname) return message.channel.send('الرجاء توضيح اسم البوت');
         if (!playlistName) return message.channel.send('الرجاء توضيح اسم القائمة'); 
         console.log(message.content);
-
+        var items = [];
        fs.exists('playlist.json', function(exists){
         if(exists){
             console.log("yes file exists");
@@ -27,13 +27,13 @@ client.on("message", message => {
                 console.log(err);
             } else {
             var data = JSON.parse(data);
-            var items = [];
+            
             for (var make in data.name) {
             if(make == playlistName){
             for (var i = 0; i < data.name[make].length; i++) {
                 
-                items[items.length] = data.name[make][i].song;
-                
+                items[i] = data.name[make][i].song;
+                console.log(i + " " + items[i]);
 //                 message.channel.send(botname + " " + data.name[make][i].song).then(msg => {
 //                 msg.delete(500)
 //                 })
@@ -45,7 +45,7 @@ client.on("message", message => {
         }
     }})
     }});
-
+    console.log(items);
     var index = 0;
     var interval = setInterval(function(){
          console.log(items[index++]);
