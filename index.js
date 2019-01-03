@@ -60,7 +60,7 @@ client.on("message", message => {
                 message.channel.send(botname + " " + items[index++]).then(msg => {
                 msg.delete(3000)
                 })
-                .catch("deleted");;
+                .catch("deleted");
 
 
 
