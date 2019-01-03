@@ -51,6 +51,9 @@ client.on("message", message => {
     }});
     console.log(items);
     var index = 0;
+    
+    if(items.length < 0 ) return message.channel.send('لا يوجد قائمة بهذا الاسم');
+
     var interval = setInterval(function(){
 //          console.log(items[index++]);
          
