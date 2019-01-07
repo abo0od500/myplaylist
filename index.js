@@ -38,7 +38,7 @@ client.on("message", message => {
                 ex = 1 ;
                 if(datatype == "name"){
                 items[i] = data.name[make][i].song;
-                }
+                } 			
                 
                 if(datatype == "link"){
                 items[i] = data.name[make][i].link;
@@ -63,6 +63,9 @@ client.on("message", message => {
                 })
                 .catch("deleted");
 		}
+	    if (typeof items == 'undefined' && items.length == 0) {
+	    	message.channel.send('لا يوجد قائمة بهذا الاسم');
+	    }
 
 
          if(index == items.length){
