@@ -35,7 +35,7 @@ client.on("message", message => {
             for (var make in data.name) {
             if(make == playlistName){
             for (var i = 0; i < data.name[make].length; i++) {
-                ex = 1;
+                ex = 1 ;
                 if(datatype == "name"){
                 items[i] = data.name[make][i].song;
                 }
@@ -52,35 +52,26 @@ client.on("message", message => {
 
     var index = 0;
     
-    if (typeof items !== 'undefined' && items.length > 0) {
+    
 
 
     var interval = setInterval(function(){
 //          console.log(items[index++]);
-         
+         if (typeof items !== 'undefined' && items.length > 0) {
                 message.channel.send(botname + " " + items[index++]).then(msg => {
                 msg.delete(3000)
                 })
                 .catch("deleted");
-
+		}
 
 
          if(index == items.length){
             clearInterval(interval);
-             ex = 0;
          }
     }, 5000);
-    } else {
-		        message.channel.send('لا يوجد قائمة بهذا الاسم');
+
+
 	}
-
-
-
-
-
-
-
-}
     }
 });
 client.login(process.env.TOKEN);
