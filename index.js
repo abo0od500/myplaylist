@@ -51,8 +51,9 @@ client.on("message", message => {
     console.log(items);
     var index = 0;
     
-    if(ex = 0) return message.channel.send('لا يوجد قائمة بهذا الاسم');
-
+    if(ex = 0) {
+        message.channel.send('لا يوجد قائمة بهذا الاسم');
+    }else {
     var interval = setInterval(function(){
 //          console.log(items[index++]);
          
@@ -65,8 +66,10 @@ client.on("message", message => {
 
          if(index == items.length){
             clearInterval(interval);
+             ex = 0;
          }
     }, 5000);
+    }
 
 
 
