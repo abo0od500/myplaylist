@@ -31,7 +31,9 @@ client.on("message", message => {
                 console.log(err);
             } else {
             var data = JSON.parse(data);
-            
+                
+            console.log(data.indexOf(playlistName));
+                
             for (var make in data.name) {
             if(make == playlistName){
             for (var i = 0; i < data.name[make].length; i++) {
