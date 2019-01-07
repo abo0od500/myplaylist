@@ -25,19 +25,16 @@ client.on("message", message => {
         var items = [];
        fs.exists('playlist.json', function(exists){
         if(exists){
-            console.log("yes file exists");
             fs.readFile('playlist.json', function readFileCallback(err, data){
             if (err){
                 console.log(err);
             } else {
             var data = JSON.parse(data);
-                
-            console.log(data.indexOf(playlistName));
-                
+            var ex = 0;
             for (var make in data.name) {
             if(make == playlistName){
             for (var i = 0; i < data.name[make].length; i++) {
-                
+                ex = 1;
                 if(datatype == "name"){
                 items[i] = data.name[make][i].song;
                 }
@@ -54,7 +51,7 @@ client.on("message", message => {
     console.log(items);
     var index = 0;
     
-    if(items.length < 0 ) return message.channel.send('لا يوجد قائمة بهذا الاسم');
+    if(ex = 0) return message.channel.send('لا يوجد قائمة بهذا الاسم');
 
     var interval = setInterval(function(){
 //          console.log(items[index++]);
