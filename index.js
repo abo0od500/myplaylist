@@ -23,6 +23,7 @@ client.on("message", message => {
         }
         
         var items = [];
+		
        fs.exists('playlist.json', function(exists){
         if(exists){
             fs.readFile('playlist.json', function readFileCallback(err, data){
@@ -48,12 +49,13 @@ client.on("message", message => {
         }
     }})
     }});
-    console.log(items);
+
     var index = 0;
     
-    if(ex = 0) {
+    if(ex == 0) {
         message.channel.send('لا يوجد قائمة بهذا الاسم');
-    }else {
+    } 
+	if(ex == 1) {
     var interval = setInterval(function(){
 //          console.log(items[index++]);
          
