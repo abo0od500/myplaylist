@@ -52,10 +52,9 @@ client.on("message", message => {
 
     var index = 0;
     
-    if(ex == 0) {
-        message.channel.send('لا يوجد قائمة بهذا الاسم');
-    } 
-	if(ex == 1) {
+    if (typeof items !== 'undefined' && items.length > 0) {
+
+
     var interval = setInterval(function(){
 //          console.log(items[index++]);
          
@@ -71,7 +70,9 @@ client.on("message", message => {
              ex = 0;
          }
     }, 5000);
-    }
+    } else {
+		        message.channel.send('لا يوجد قائمة بهذا الاسم');
+	}
 
 
 
