@@ -88,8 +88,9 @@ client.on("message", message => {
                 console.log(err);
             } else {
             var data = JSON.parse(data);
+			console.log(data.name);
             //var ex = 0;
-            for (var make in data.name) {
+            // for (var make in data.name) {
             // if(make == playlistName){
             // for (var i = 0; i < data.name[make].length; i++) {
                 // ex = 1 ;
@@ -104,8 +105,8 @@ client.on("message", message => {
                 // }
             // }
 			
-			console.log(data.name);
-        }
+			// console.log(data.name);
+        // }
     }})
     }});
     
