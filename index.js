@@ -104,7 +104,7 @@ client.on("message", message => {
                 // }
             // }
 			
-			console.log(data.name[make]);
+			console.log(data.name);
         }
     }})
     }});
