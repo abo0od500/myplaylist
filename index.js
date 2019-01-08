@@ -77,4 +77,40 @@ client.on("message", message => {
 	}
     }
 });
+
+client.on("message", message => {
+    if(message.content.startsWith(`show->`)){
+		
+		fs.exists('playlist.json', function(exists){
+        if(exists){
+            fs.readFile('playlist.json', function readFileCallback(err, data){
+            if (err){
+                console.log(err);
+            } else {
+            var data = JSON.parse(data);
+            //var ex = 0;
+            for (var make in data.name) {
+            // if(make == playlistName){
+            // for (var i = 0; i < data.name[make].length; i++) {
+                // ex = 1 ;
+                // if(datatype == "name"){
+                // items[i] = data.name[make][i].song;
+                // } 			
+                
+                // if(datatype == "link"){
+                // items[i] = data.name[make][i].link;
+                // }
+                
+                // }
+            // }
+			
+			console.log(data.name[make]);
+        }
+    }})
+    }});
+    
+    }
+
+});
+
 client.login(process.env.TOKEN);
